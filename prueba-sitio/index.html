@@ -37,17 +37,69 @@
   </head>
   <body>
 
-    <h1>Boca Juniors</h1>
+    <h1 id="Boca_Juniors">Boca Juniors</h1>
 
     <img src="images/boca.png" alt="El escudo de Boca">
+
+    <!--
+    <em> se usa para dar énfasis; y <strong>, para dar importancia fuerte
+    -->
 
     <p>Boquita es <strong>muy</strong> grande, tiene:</p>
     <ul>
       <li>18 títulos internacionales</li>
       <li>47 títulos locales</li>
-      <li>230.000 socios por todo el mundo</li>
+      <li>230.000 socios <em>por todo el mundo</em></li>
     </ul>
 
-    <a href="http://www.bocajuniors.com.ar">Sitio Oficial</a>
+    <p> <a title="El sitio web del equipo más grande del mundo"
+      href="http://www.bocajuniors.com.ar">Sitio Oficial</a> </p>
+
+    <!--
+    Este es un elemento <span>. No tiene semántica. Se usa para delimitar contenido 
+    cuando se le quiere aplicar CSS (o tratarlo con JavaScript) sin proporcionarle 
+    ningún significado extra
+    -->
+    <span style="font-size: 32px; margin: 21px 0;">¿Es este un titular de primer rango? No</span>
+
+    <!--
+    <i> se usa para transmitir el significado que tradicionalmente transmite la itálica: 
+      extranjerismos, clasificaciones taxonómicas, conceptos técnicos, un pensamiento...
+    <b> se usa para transmitir el significado que tradicionalmente transmite la negrita: 
+      palabras clave, nombres de productos, frases principales...
+    <u> se usa para transmitir el significado que tradicionalmente conlleva el subrayado: 
+      nombres propios, errores ortográficos...
+    -->
+
+    <!-- nombres científicos -->
+    <p>
+      El colibrí garganta de rubí (<i>Archilochus colubris</i>)
+      es el colibrí más común en el este de América del Norte.
+    </p>
+
+    <!-- extranjerismos -->
+    <p>
+      El menú era un mar de palabras exóticas como <i lang="uk-latn">vatrushka</i>,
+      <i lang="id">nasi goreng</i> y <i lang="fr">soupe à l'oignon</i>.
+    </p>
+
+    <!-- un error ortográfico reconocido -->
+    <p>
+      Algún día aprenderé a deletrear mejor.
+    </p>
+
+    <!-- Palabras clave destacadas en una serie de instrucciones -->
+    <ol>
+      <li>
+        <b>Corta</b> dos piezas de la hogaza de pan.
+      </li>
+      <li>
+        <b>Inserta</b> una rodaja de tomate y una hoja de
+        lechuga entre las rebanadas de pan.
+      </li>
+    </ol>
+
+    <a href="index.html#Boca_Juniors">Ir al título</a>
+
   </body>
 </html>
