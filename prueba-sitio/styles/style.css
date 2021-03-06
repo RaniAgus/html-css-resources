@@ -1,0 +1,16 @@
+html {
+  background-color: rgb(9, 9, 109);
+  font-size: 20px;
+  color: white;
+}
+  
+ul {
+  background: rgb(255, 196, 0);
+  padding: 10px;
+  border: 1px solid white;
+  color: black;
+}
+  
+li {
+  margin-left: 20px;
+}
