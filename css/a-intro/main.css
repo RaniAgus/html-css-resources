@@ -1,0 +1,33 @@
+body {
+    background-color: goldenrod;
+    /*color: indigo;*/
+}
+
+/* Tomar por id (valor único) */
+#parrafo {
+    color: indigo;
+}
+
+/* Tomar por class (valor que se repite)*/
+.etiqueta {
+    color: green;
+}
+
+.caja {
+    margin: 8px;           /* por fuera */
+
+    padding: 8px;          /* por dentro */
+
+    border-style: solid;   /* entre medio */
+    border-width: 8px;
+    border-color: brown;
+    border-left: 4px solid #afa; /* width-style-color */ /* reemplaza la propiedad de arriba */
+    border-radius: 8px;    /* curvatura de un radio de 8 pixeles */
+
+    background-color: orangered;
+
+    height: 100px;
+    width: 100px;
+
+    color: darkblue;
+}

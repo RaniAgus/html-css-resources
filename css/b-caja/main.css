@@ -1,0 +1,43 @@
+body {
+    background-color: #eee;
+}
+
+.caja {
+    background-color: #fff;
+    border: solid 1px #ccc;
+    border-radius: 2px;
+    border-top: solid 0px;
+    
+    margin: 10px;
+}
+
+.header {
+    padding: 10px;
+}
+
+.contenido {
+    padding: 10px;
+    border-top: solid 1px #eee;
+}
+
+.footer {
+    padding: 10px;
+    border-top: solid 1px #eee;
+}
+
+.boton-principal {
+    font: arial;
+    background-color: #0af;
+    color: #fff;
+    border: solid 0px;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.boton-secundario {
+    background-color: #aaa;
+    color: #fff;
+    border: solid 0px;
+    border-radius: 2px;
+    padding: 5px;
+}

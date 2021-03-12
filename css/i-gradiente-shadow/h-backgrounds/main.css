@@ -1,0 +1,24 @@
+body {
+    background-color: #ddd;
+}
+
+.fondo {
+    height: 600px;
+    
+    background: green url('http://placekitten.com/200/300') no-repeat right top fixed;
+    /*ES LO MISMO QUE:
+
+    background-color: green;
+    background-image: url('http://placekitten.com/200/300');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed; (la foto no se mueve al scrollear)
+ */ 
+    background-size: cover;
+
+    /*
+    background-color: 
+     - rgba(red, green, blue, alpha) (0-255, 0-255, 0-255, 0-1)
+     - hsla(hue, saturation, lightness); (0-360, 0%-100%, 0%-100%, 0-1)
+    */
+}

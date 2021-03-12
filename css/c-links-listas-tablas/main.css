@@ -1,0 +1,109 @@
+body {
+    background-color: #eee;
+}
+
+p {
+    font-family: Arial;
+    font-weight: bold; /* valores: 100-200-300-...-900*/
+    font-style: italic;
+    font-size: 1.5em;
+
+    color: green;
+    text-align: left; /* left center right justified ...*/
+    text-indent: 40px; /* sangría */
+    line-height: 1.7; /* espacio entre líneas */
+    word-spacing: 7px;
+    text-shadow: 3px 1px 2px rgba(0, 0, 0, 0.4); /* desplaz-der despl-abajo difuminacion color*/
+}
+
+/*
+
+LINKS
+
+*/
+
+a {
+    text-decoration: none; /* none overline underline line-through ...*/
+    text-transform: capitalize; /* uppercase lowercase capitalize ...*/
+    letter-spacing: 10px;
+
+    background-color: #55f;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: solid 3px #00d;
+}
+
+a:link { /* link sin visitar */
+    color: rebeccapurple;
+}
+
+a:visited { /* link visitado */
+    color: hotpink;
+}
+
+a:hover { /* al pasar el mouse por encima */
+    color: gray;
+    text-decoration: underline;
+    background-color: #99f;
+}
+
+a:active { /* al hacer click */
+    color: black;
+    background-color: salmon;
+    text-decoration: overline;
+}
+
+/*
+
+LISTAS
+
+*/
+
+ul {
+    background-color: #fff;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    list-style-type: none; /* circle square upper-roman lower-alpha */
+    padding-left: 0px;
+}
+
+ul li {
+    /* list-style-type: square; */
+    border-bottom: solid 1px #ddd;
+    padding: 15px;
+}
+
+/*
+
+TABLAS
+
+*/
+
+table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px; 
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table th {
+    background-color: #4caf50;
+    color: white;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;   
+    padding-left: 8px;
+    padding-right: 8px; 
+}

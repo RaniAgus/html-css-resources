@@ -1,0 +1,34 @@
+#invisible {
+    display: none;
+}
+
+#position {
+    max-width: 350px; /* ancho máximo, es 350px o menos */
+    background-color: cadetblue;
+    margin: auto; /* para centrarlo */
+    position: fixed; /* el valor por defecto es static */
+    /* fixed deja el contenido sin moverse (como los menús que se quedan arriba al scrollear)*/
+    right: 20px; /* left-top-bottom-right para mover n pixeles*/
+    top: 0px;
+    bottom: 0px;
+}
+
+#over {
+    border: solid 2px black;
+    height: 100px;
+    width: 100px;
+    overflow: scroll;
+}
+
+img {
+    float: right;
+    opacity: 0.9; /* valores de 0 a 1*/
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+div p {
+    color: red;
+}

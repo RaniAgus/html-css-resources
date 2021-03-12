@@ -1,0 +1,28 @@
+body {
+    background-color: #ddd;
+}
+
+.fondo {
+    background-image: linear-gradient(-15deg, red, yellow); /* direccion, color1, color2*/
+    /*
+    - default: arriba a abajo
+    - recto: to right, to left, to top, to bottom
+    - diagonal: to right bottom, ..., etc
+        rotación por grados: -45deg, ..., etc
+    - puede tener 3 o más colores!
+    - se puede poner rgba() u otros!
+    */
+}
+
+.box {
+    box-shadow: 0px 8px 16px rgb(0, 0, 0, 0.2); /* desplaz-derecha // desplaz-abajo // blur // */
+    
+    /* inset: recibe la sombra adentro 
+    */
+    padding: 10px 10px;
+}
+
+.text {
+    color: white;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+}

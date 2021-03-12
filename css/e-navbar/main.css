@@ -1,0 +1,40 @@
+body {
+    background-color: #ddd;
+}
+
+ul {
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0; /* pegado a la parte de arriba */
+    left: 0; /* pegado a la izquierda */
+    width: 100%; /* ocupar todo el ancho */
+}
+
+li {
+    float: left;
+    height: 50px;
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none; /* quita el subrayado */
+}
+
+.active {
+    background-color: seagreen;
+}
+
+.content {
+    margin-top: 55px;
+}
