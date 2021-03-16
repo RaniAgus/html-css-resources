@@ -1,3 +1,45 @@
 body {
     background-color: #ddd;
 }
+
+.flex {
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap; /* row, row-reverse, column, column-reverse  || wrap, nowrap, wrap-reverse, ...*/
+}
+
+.pri {
+    border: solid 1px black;
+    order: 1;
+}
+
+.segu {
+    border: solid 1px black;
+    order: 0;
+    flex-grow: 1;
+}
+
+.ter {
+    border: solid 1px black;
+    order: -1;/*
+    flex-grow: 1; -- crecer de manera dinámica 
+    flex-basis: 500px; -- tamaño base */
+    flex: 1 300px;
+}
+
+.cuar {
+    border: solid 1px black;
+    order: 0;
+    flex-grow: 2; 
+    align-self: flex-end;
+}
+
+.quin {
+    border: solid 1px black;
+    order: 0;
+}
+
+.sext {
+    border: solid 1px black;
+    order: 0;
+}
