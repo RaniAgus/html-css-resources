@@ -1,0 +1,31 @@
+body {
+    background-color: #ddd;
+}
+
+.grid-px {
+    text-align: center;
+    display: grid; /* grid: ocupa todo / inline-grid: ocupa solo hasta donde llega el texto */
+    grid-template-rows: 50px 100px; /* 1° fila 50px, 2°fila 100px, n fila auto */
+    grid-template-columns: 90px 60px 120px;
+}
+
+.grid-fr {
+    margin: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    gap: 20px 10px; /* brecha entre filas // entre columnas */
+}
+
+.grid-minmax {
+    margin: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, auto));
+}
+
+
+.element {
+    background-color: red;
+    border: 1px solid black;
+}
