@@ -1,0 +1,25 @@
+body {
+    background-color: #ddd;
+}
+.grid {
+    display: grid;
+    grid-template-areas: "header header"
+                         "content sidebar"
+                         "footer footer";
+    grid-template-rows: 150px 1fr 100px;
+    grid-template-columns: 1fr 200px;
+
+    /* grilla implícita */
+    grid-auto-rows: 140px;
+    grid-auto-flow: row; /* row: de arriba hacia abajo -- column: de izq a der*/ 
+    /* ------ */
+}
+
+.red {
+    background-color: red;
+}
+
+.item-1 {
+    justify-self: center; /* de izquierda a derecha */
+    align-self: end; /* de arriba a abajo */
+}
