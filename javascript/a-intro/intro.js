@@ -94,3 +94,10 @@ const alfabeto = ['a', 'b', 'c', 'd', 'e'];
 for(let i = 0; i < alfabeto.length; i++) {
     console.log(alfabeto[i]);
 }
+
+// Para COPIAR un objeto!!!
+const miObjetoDuplicado = {...miObjeto};
+miObjetoDuplicado.unNumero = 24;
+
+console.log('miObjeto.unNumero: ', miObjeto.unNumero);
+console.log('miObjetoDuplicado.unNumero: ', miObjetoDuplicado.unNumero);
